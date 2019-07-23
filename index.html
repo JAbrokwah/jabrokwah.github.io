@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:object-fit="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, height=device-height"> <!-- ,maximum-scale=1,user-scalable=no -->
@@ -14,9 +14,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body style="height: 100%; width: 100%; overflow-x: hidden; overflow-y: hidden">
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navSection">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navSection" style="width: 100%">
       <!-- Brand -->
       <a class="navbar-brand" href="index.html">Justin Abrokwah</a>
 
@@ -32,7 +32,7 @@
             <a class="nav-link" href="projectsPage.html">Projects</a>
           </li>
           <li class="nav-item" id="resNav">
-            <a class="nav-link" href="resumePage.html">Resume</a>
+            <a class="nav-link" href="website/resources/JustinResume.pdf" target="_blank">Resume</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -48,11 +48,12 @@
     </nav>
 
     <div class="row">
-      <div class="col-md-6 text-center no-float">
-        BOOM
+      <div class="col-md-6 text-center no-float p-2" style="vertical-align: middle">
+        <img src="website/img/ProfilePic.JPG" style="width: auto; height: 90vh;object-fit: contain; border-radius: 25%">
       </div>
-      <div class="col-md-6 text-center no-float">
-        BOOM
+      <div class="col-md-6 text-center p-2 align-self-center">
+        <h1>Justin Abrokwah</h1>
+        <p>Welcome to my website! Feel free to check out my projects and my resume.</p>
       </div>
     </div>
 
