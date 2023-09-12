@@ -1,6 +1,6 @@
 {
-  "short_name": "Justin Abrokwah",
-  "name": "jabrokwah.github.io",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

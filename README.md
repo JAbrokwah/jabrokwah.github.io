@@ -1,68 +1,174 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+  <!-- PROJECT SHIELDS -->
 
-In the project directory, you can run:
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### `npm start`
+  <!-- PROJECT LOGO -->
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <br />
+  <div align="center">
+    <a href="https://github.com/mdyeates/my-portfolio">
+      <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
+    </a>
+    <h1 align="center">michaelyeates.co.uk</h1>
+    <p align="center">
+    <br/>
+Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.<br/>
+      <br/>
+      Built by: Michael Yeates
+      <br/>
+      <br/>
+      <a href="https://github.com/mdyeates/my-portfolio"><strong>Explore the docs »</strong></a>
+      <br/>
+      <br/>
+      <a href="https://michaelyeates.co.uk">View Live Website</a>
+      ·
+      <a href="https://github.com/mdyeates/my-portfolio/issues">Report Bug</a>
+      ·
+      <a href="https://github.com/mdyeates/my-portfolio/issues">Request Feature</a>
+    </p>
+  </div>
+  
+  <!-- TABLE OF CONTENTS -->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <details>
+    <summary>Table of Contents</summary>
+    <ol>
+      <li>
+        <a href="#about-the-project">About The Project</a>
+        <ul>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#built-with">Built With</a></li>
+          <li><a href="#description">Description</a></li>
+        </ul>
+      </li>
+      <li>
+          <a href="#getting-started">Getting Started</a>
+        <ul>
+          <li><a href="#prerequisites">Prerequisites</a></li>
+          <li><a href="#installation">Installation</a></li>
+        </ul>
+      </li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#questions">Questions</a></li>
+    </ol>
+  </details>
+  
+  <!-- ABOUT THE PROJECT -->
+  
+  ## About The Project
+  
+  ### Photos
+  
+[![My React Portfolio Screen Shot][product-screenshot]](https://michaelyeates.co.uk)
 
-### `npm test`
+[![My React Portfolio Screen Shot][product-screenshot2]](https://michaelyeates.co.uk)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![My React Portfolio Screen Shot][product-screenshot3]](https://michaelyeates.co.uk)
 
-### `npm run build`
+[![My React Portfolio Screen Shot][product-screenshot4]](https://michaelyeates.co.uk)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+  ### Built With
+  
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=React&logoColor=61DAFB)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+  ### Description
+  
+This is more than a portfolio; it's an invitation to explore, learn, and connect. So, immerse yourself and enjoy the journey.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+While I wholeheartedly encourage you to utilise my portfolio as a springboard for your own creative ventures, I would like to kindly ask that, in the spirit of fairness and recognition, you provide attribution to <strong>michaelyeates.co.uk</strong>. Your support in acknowledging the origin of this portfolio is greatly appreciated.
 
-### `npm run eject`
+I kindly urge you to abstain from portraying either the portfolio or the projects as products of your own authorship. The energy and time devoted to shaping this portfolio reflect my personal journey and aspirations.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Thank you for your understanding, and for embracing the ethos of creativity, authenticity, and shared respect that underpins our digital community. Your appreciation means a lot!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you like what you see, I'd be truly grateful if you consider giving it a star 🌟
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3>TL;DR</h3>
+Feel free to fork this repo for your own purposes, provided you give me credit.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  <p align="right"><a href="#readme-top">back to top</a></p>
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Analyzing the Bundle Size
+### Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1. Clone the repo
+   ```sh
+   git clone https://github.com/mdyeates/my-portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-### Making a Progressive Web App
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+ 
+  <!-- LICENSE -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+  
+<!-- QUESTIONS -->
+  
+## Questions
 
-### Deployment
+If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email to <a href="mailto:michael-yeates@outlook.com">michael-yeates@outlook.com</a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<a href="https://www.linkedin.com/in/mdyeates/">LinkedIn</a> | <a href="https://github.com/mdyeates/">GitHub</a>
 
-### `npm run build` fails to minify
+Project Link: [https://github.com/mdyeates/my-portfolio](https://github.com/mdyeates/my-portfolio)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+  <!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/mdyeates/my-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/mdyeates/my-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mdyeates/my-portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/mdyeates/my-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/mdyeates/my-portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/mdyeates/my-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mdyeates/my-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/mdyeates/my-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/mdyeates/my-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/mdyeates/my-portfolio/blob/main/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/mdyeates
+
+  <!-- UPDATE PLACEHOLDER IMAGES HERE -->
+
+[product-screenshot]: src/images/screenshot.png
+[product-screenshot2]: src/images/screenshot2.png
+[product-screenshot3]: src/images/screenshot3.png
+[product-screenshot4]: src/images/screenshot4.png
+[responsive-screenshot]: src/images/mobile-screenshot.png
+[responsive-screenshot2]: src/images/mobile-screenshot2.png
+[responsive-screenshot3]: src/images/mobile-screenshot3.png
+[responsive-screenshot4]: src/images/mobile-screenshot4.png
