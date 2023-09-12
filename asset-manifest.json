@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.4d6cfd0e.css",
-    "main.js": "/react-gh-pages/static/js/main.02faf4e1.js",
-    "static/media/ja-monogram-white.png": "/react-gh-pages/static/media/ja-monogram-white.ce32565b2845641a107c.png",
-    "static/media/memoji-wave.png": "/react-gh-pages/static/media/memoji-wave.5a4a1b45f5c36bf3004a.png",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/close.svg": "/react-gh-pages/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
-    "static/media/open.svg": "/react-gh-pages/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
-    "main.4d6cfd0e.css.map": "/react-gh-pages/static/css/main.4d6cfd0e.css.map",
-    "main.02faf4e1.js.map": "/react-gh-pages/static/js/main.02faf4e1.js.map"
+    "main.css": "/static/css/main.4d6cfd0e.css",
+    "main.js": "/static/js/main.979fe080.js",
+    "static/media/ja-monogram-white.png": "/static/media/ja-monogram-white.ce32565b2845641a107c.png",
+    "static/media/memoji-wave.png": "/static/media/memoji-wave.5a4a1b45f5c36bf3004a.png",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
+    "static/media/open.svg": "/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
+    "main.4d6cfd0e.css.map": "/static/css/main.4d6cfd0e.css.map",
+    "main.979fe080.js.map": "/static/js/main.979fe080.js.map"
   },
   "entrypoints": [
     "static/css/main.4d6cfd0e.css",
-    "static/js/main.02faf4e1.js"
+    "static/js/main.979fe080.js"
   ]
 }
