@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo/ja-monogram-white.png";
+import logo from "../assets/images/logo/ja-name-cross-logo-white-transparent.png";
 import NavLinks from "./NavLinks";
 
 /**

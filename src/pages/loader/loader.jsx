@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import loadingMonogram from "../../images/logo/ja-monogram-white.png";
+import loadingMonogram from "../../assets/images/logo/ja-name-cross-logo-white-transparent.png";
 
 /**
  * Represents the Loader component.

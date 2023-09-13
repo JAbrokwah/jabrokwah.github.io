@@ -89,6 +89,15 @@
   transition: transform 0.3s ease; /* Add a smooth transition */
 }
 
+.skill {
+  width: 76px;
+  height: 76px;
+}
+
+.skills {
+  color: white;
+}
+
 @media (min-width: 595px) {
   .contentContainer {
     padding: var(--sm-spacing);

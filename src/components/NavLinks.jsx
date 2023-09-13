@@ -2,8 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import LightDarkToggle from "./LightDarkToggle";
-import openMenu from "../images/open.svg";
-import closeMenu from "../images/close.svg";
+import openMenu from "../assets/images/open.svg";
+import closeMenu from "../assets/images/close.svg";
 
 /**
  * Represents navigation links and menu toggles.
@@ -44,8 +44,8 @@ const NavLinks = () => {
           transition={{ delay: 2.5, duration: 0.5, type: "spring" }}
         >
           {/* Home link */}
-          <NavLink to="/about-me" onClick={() => setIsMenuOpen(false)} style={{width: 'max-content'}}>
-            About Me
+          <NavLink to="/about-me" onClick={() => setIsMenuOpen(false)}>
+            About
           </NavLink>
         </motion.div>
         
