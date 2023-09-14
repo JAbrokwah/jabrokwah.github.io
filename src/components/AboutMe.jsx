@@ -36,6 +36,11 @@ const AboutMe = ({ name }) => {
     animate: { y: 0, opacity: 1 },
   };
 
+  // shortcut for highlighting text
+  const specialText =  (text) => {
+    return <span style={{ color: "var(--hl-color)" }}>{text}</span>
+  };
+
   return (
     <section className="about" id="about-me">
       <div className="aboutContainer container">
@@ -59,10 +64,10 @@ const AboutMe = ({ name }) => {
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Display greeting and job title with animation */}
               <motion.h4 variants={paragraphVariants}>
-                Akwaaba! Welcome to my Portfolio!
+                Welcome to my website! 👋🏾
               </motion.h4>
               <motion.h5 variants={paragraphVariants}>
-                I'm a Software Engineer at Okta.
+                I'm a Software Engineer.
               </motion.h5>
 
               {/* Display content description with animation */}
@@ -74,41 +79,38 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  Today, I find myself knee-deep in an exhilarating chapter of
-                  my journey as a degree apprentice at the tech titan,{" "}
-                  <span style={{ color: "var(--hl-color)" }}> Amazon</span>. My
-                  playground? The captivating universe of{" "}
-                  <span style={{ color: "var(--hl-color)" }}> Alexa</span>.
+                  My name is Justin Abrokwah and I'm on this journey called life. By profession, 
+                  I do {specialText("full-stack software development")} and enjoy innovation in the tech space. The problem-solving aspect of coding is my favourite thing
+                  about it; there are multiple ways to do the same thing and that allows for a plethora of solutions to various problems. My career started when I
+                  took an intro to CS course in grade 11 and I haven't looked back since. In 2021, I graduated from the {specialText("University of Toronto")} with an undergraduate degree in 
+                  {specialText(" Computer Science")} with a {specialText("specialization in Software Engineering")}.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Here, I don my{" "}
-                  <span style={{ color: "var(--hl-color)" }}>
-                    {" "}
-                    problem-solving{" "}
-                  </span>
-                  cape and dive headfirst into real-world challenges, all while
-                  relentlessly pursuing a{" "}
-                  <span style={{ color: "var(--hl-color)" }}>
-                    {" "}
-                    Digital and Technology Solutions
-                  </span>{" "}
-                  degree from the University of Roehampton. So here I am,
-                  juggling bits of binary and real-life conundrums, all while
-                  crafting my own success story.
+                  I'm planning to start my Masters journey in Fall 2024 with a focus on {specialText("Machine Learning")}. This field piques
+                  my interest because of the potential of innovation it provides, and due to its ability to turn data into
+                  something useful. Machine Learning is and will be an influential concept within our society.
+                  <br />
+                  At the moment, I'm unsure of what my end goal is but I want to equip myself as well as possible for whatever I pursue. I love to learn
+                  and experiment with new techonologies and ideas, which is leading to contributing via {specialText("open-source development")} or side projects of my own
+                  or with friends/colleagues.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Life is a kaleidoscope of experiences, far beyond the confines
-                  of work. When code isn't my focus, I'm conquering cycling
-                  routes, feeling the wind on spirited runs, and fueling my love
-                  for Formula One. Amid serene moments, I transform into a film
-                  aficionado, seeking films that kindle inspiration and provoke
-                  thought.
+                  Outside of work, I am a huge fan of professional sports. I have been coaching tennis in the Jane/Finch community in Toronto since 2014,
+                  it's a pleasure to give back to the community program that helped mold me for success. My favourite sports are
+                  {specialText(" Basketball")}, {specialText("Tennis")} and {specialText("Soccer")}!
+                  Big fan of playing and watching each sport. Huge {specialText("Toronto Raptors")} and {specialText("Arsenal ")}
+                  fan, #WeTheNorth #COYG.<br />
+                  Favourite TV Shows 📺: Atlanta, The Wire, and Ted Lasso.<br />
+                  Favourite Movies 🎞️: Inception, John Q, and all the Spider-Man films.<br />
+                  Favourite Video Games 🎮: Football Manager, FIFA, Spider-Man video games, and TellTale games.<br />
                 </motion.p>
               </motion.div>
             </motion.div>
           </div>
+
+          {/* Skills */}
           <motion.div
             className="col"
             initial={{ x: "-10vw", opacity: 0, scale: 0.5 }}
@@ -119,12 +121,15 @@ const AboutMe = ({ name }) => {
             }
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
-            {/* Skills */}
             <motion.div className="contentContainer" variants={staggerVariants}>
               <motion.h5 variants={paragraphVariants}>Skills</motion.h5>
               {Object.keys(SKILLS).map((category) => {
                 return (
-                  <SkillSection title={category} skills={SKILLS[category]} key={category} />
+                  <SkillSection
+                    title={category}
+                    skills={SKILLS[category]}
+                    key={category}
+                  />
                 );
               })}
             </motion.div>

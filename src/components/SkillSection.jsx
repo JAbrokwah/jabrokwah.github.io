@@ -1,23 +1,25 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import SkillElement from "./SkillElement";
-import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Grid";
 
 const SkillSection = ({ title, skills }) => {
   return (
     <motion.div className="skills">
       <p className="skillsTitle">{title}</p>
-      <Stack direction="row" spacing={2}>
+      <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         {Object.keys(skills).map((skill) => {
           return (
-            <SkillElement
-              Icon={skills[skill].Icon}
-              display={skills[skill].display}
-              key={skills[skill].display}
-            />
+            <Grid item xs={2} md={2}>
+              <SkillElement
+                Icon={skills[skill].Icon}
+                display={skills[skill].display}
+                key={skills[skill].display}
+              />
+            </Grid>
           );
         })}
-      </Stack>
+      </Grid>
     </motion.div>
   );
 };
