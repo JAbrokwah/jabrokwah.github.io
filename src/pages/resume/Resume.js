@@ -1,12 +1,14 @@
+import DownloadResumeButton from "../../components/DownloadResumeButton";
 import ExperienceTimeline from "../../components/ExperienceTimeline";
 import PageHeader from "../../components/PageHeader";
 
-const Resume = ({ brand }) => {
+const Resume = () => {
   return (
     <section className="resume container">
       <PageHeader title="Experience" />
       {/* Button/Link for Resume */}
-      {/* <p className="brand">{brand}</p> */}
+      <DownloadResumeButton />
+      {/* Vertical Timeline of Experiences */}
       <ExperienceTimeline />
     </section>
   );

@@ -14,3 +14,7 @@
   margin: var(--sm-spacing);
   text-align: center;
 }
+
+.download-button {
+  margin-bottom: 15%;
+}

@@ -37,8 +37,8 @@ const AboutMe = ({ name }) => {
   };
 
   // shortcut for highlighting text
-  const specialText =  (text) => {
-    return <span style={{ color: "var(--hl-color)" }}>{text}</span>
+  const specialText = (text) => {
+    return <span style={{ color: "var(--hl-color)" }}>{text}</span>;
   };
 
   return (
@@ -79,32 +79,57 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  My name is Justin Abrokwah and I'm on this journey called life. By profession, 
-                  I do {specialText("full-stack software development")} and enjoy innovation in the tech space. The problem-solving aspect of coding is my favourite thing
-                  about it; there are multiple ways to do the same thing and that allows for a plethora of solutions to various problems. My career started when I
-                  took an intro to CS course in grade 11 and I haven't looked back since. In 2021, I graduated from the {specialText("University of Toronto")} with an undergraduate degree in 
-                  {specialText(" Computer Science")} with a {specialText("specialization in Software Engineering")}.
+                  My name is Justin Abrokwah and I'm on this journey called
+                  life. By profession, I do{" "}
+                  {specialText("full-stack software development")} and enjoy
+                  innovation in the tech space. The problem-solving aspect of
+                  coding is my favourite thing about it; there are multiple ways
+                  to do the same thing and that allows for a plethora of
+                  solutions to various problems. My career started when I took
+                  an intro to CS course in grade 11 and I haven't looked back
+                  since. In 2021, I graduated from the{" "}
+                  {specialText("University of Toronto")} with an undergraduate
+                  degree in
+                  {specialText(" Computer Science")} with a{" "}
+                  {specialText("specialization in Software Engineering")}.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  I'm planning to start my Masters journey in Fall 2024 with a focus on {specialText("Machine Learning")}. This field piques
-                  my interest because of the potential of innovation it provides, and due to its ability to turn data into
-                  something useful. Machine Learning is and will be an influential concept within our society.
+                  I'm planning to start my Masters journey in Fall 2024 with a
+                  focus on {specialText("Machine Learning")}. This field piques
+                  my interest because of the potential of innovation it
+                  provides, and due to its ability to turn data into something
+                  useful. Machine Learning is and will be an influential concept
+                  within our society.
                   <br />
-                  At the moment, I'm unsure of what my end goal is but I want to equip myself as well as possible for whatever I pursue. I love to learn
-                  and experiment with new techonologies and ideas, which is leading to contributing via {specialText("open-source development")} or side projects of my own
-                  or with friends/colleagues.
+                  At the moment, I'm unsure of what my end goal is but I want to
+                  equip myself as well as possible for whatever I pursue. I love
+                  to learn and experiment with new techonologies and ideas,
+                  which is leading to contributing via{" "}
+                  {specialText("open-source development")} or side projects of
+                  my own or with friends/colleagues.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Outside of work, I am a huge fan of professional sports. I have been coaching tennis in the Jane/Finch community in Toronto since 2014,
-                  it's a pleasure to give back to the community program that helped mold me for success. My favourite sports are
-                  {specialText(" Basketball")}, {specialText("Tennis")} and {specialText("Soccer")}!
-                  Big fan of playing and watching each sport. Huge {specialText("Toronto Raptors")} and {specialText("Arsenal ")}
-                  fan, #WeTheNorth #COYG.<br />
-                  Favourite TV Shows 📺: Atlanta, The Wire, and Ted Lasso.<br />
-                  Favourite Movies 🎞️: Inception, John Q, and all the Spider-Man films.<br />
-                  Favourite Video Games 🎮: Football Manager, FIFA, Spider-Man video games, and TellTale games.<br />
+                  Outside of work, I am a huge fan of professional sports. I
+                  have been coaching tennis in the Jane/Finch community in
+                  Toronto since 2014, it's a pleasure to give back to the
+                  community program that helped mold me for success. My
+                  favourite sports are
+                  {specialText(" Basketball")}, {specialText("Tennis")} and{" "}
+                  {specialText("Soccer")}! Big fan of playing and watching each
+                  sport. Huge {specialText("Toronto Raptors")} and{" "}
+                  {specialText("Arsenal ")}
+                  fan, #WeTheNorth #COYG.
+                  <br />
+                  Favourite TV Shows 📺: Atlanta, The Wire, and Ted Lasso.
+                  <br />
+                  Favourite Movies 🎞️: Inception, John Q, and all the Spider-Man
+                  films.
+                  <br />
+                  Favourite Video Games 🎮: Football Manager, FIFA, Spider-Man
+                  video games, and TellTale games.
+                  <br />
                 </motion.p>
               </motion.div>
             </motion.div>
@@ -126,9 +151,9 @@ const AboutMe = ({ name }) => {
               {Object.keys(SKILLS).map((category) => {
                 return (
                   <SkillSection
+                    key={category}
                     title={category}
                     skills={SKILLS[category]}
-                    key={category}
                   />
                 );
               })}

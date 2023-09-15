@@ -16,7 +16,7 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
+      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio" target="_blank" rel="noreferrer">
         <p>
           <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
         </p>

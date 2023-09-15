@@ -10,11 +10,11 @@ const SkillSection = ({ title, skills }) => {
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         {Object.keys(skills).map((skill) => {
           return (
-            <Grid item xs={2} md={2}>
+            <Grid item xs={2} md={2} key={skills[skill].display}>
               <SkillElement
+                key={skills[skill].display}
                 Icon={skills[skill].Icon}
                 display={skills[skill].display}
-                key={skills[skill].display}
               />
             </Grid>
           );

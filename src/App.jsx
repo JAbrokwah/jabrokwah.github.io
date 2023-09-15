@@ -42,8 +42,6 @@ function App() {
     name: "Justin Abrokwah",
     location: "Toronto, Canada",
     email: "michael-yeates@outlook.com",
-    brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
   };
 
   const location = useLocation();
@@ -80,7 +78,8 @@ function App() {
             <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
             <Route path="/about-me" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/experience" element={<Resume brand={personalDetails.brand} />} />
+            <Route path="/experience" element={<Resume />} />
+            <Route path="/assets/files/resume.pdf" />
 
             <Route
               path="/contact"
