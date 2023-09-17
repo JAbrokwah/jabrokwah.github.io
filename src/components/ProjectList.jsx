@@ -11,7 +11,7 @@ import projects from "../_data/projects.json";
  */
 
 const ProjectList = () =>
-  projects.map((project) => (
+  [].map((project) => (
     <ProjectCard key={project.id} title={project.title} image={project.image} color={project.bgcolor} />
   ));
 

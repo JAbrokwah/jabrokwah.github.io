@@ -29,7 +29,9 @@ const ContactInfo = ({ name, email, location }) => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Let's connect and build something awesome together! </p>
+      <p className="infoDescription">
+        Let's connect!{" "}
+      </p>
       <ul className="listInfo">
         {/* Display Name */}
         <li>
@@ -62,13 +64,15 @@ const ContactInfo = ({ name, email, location }) => {
           <div className="personalContactInfo">
             <span className="infoIcon">
               {/* Icon for Email */}
-              <i className="icon fa-solid fa-envelope "></i>{" "}
+              <i className="icon fa-brands fa-linkedin "></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Email</h6>
+              <h6 className="infoType">LinkedIn</h6>
               {/* Link to email */}
               <span className="infoValue">
-                <a href={`mailto:${email}`}>{email}</a>
+                <a href={"https://www.linkedin.com/in/jabrokwah/"}>
+                  Justin Abrokwah
+                </a>
               </span>
             </div>
           </div>

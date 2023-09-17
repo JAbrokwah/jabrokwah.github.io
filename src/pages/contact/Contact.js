@@ -23,9 +23,9 @@ const Contact = ({ name, email, location }) => {
         <div className="contactWrap container">
           <div className="row">
             {/* Display the contact form */}
-            <div className="col-12 col-lg-6">
+            {/* <div className="col-12 col-lg-6">
               <Form />
-            </div>
+            </div> */}
 
             {/* Display the contact information */}
             <div className="col-12 col-lg-6">
