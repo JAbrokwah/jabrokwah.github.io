@@ -1,17 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d6cfd0e.css",
-    "main.js": "/static/js/main.979fe080.js",
-    "static/media/ja-monogram-white.png": "/static/media/ja-monogram-white.ce32565b2845641a107c.png",
+    "main.css": "/static/css/main.0d8a9795.css",
+    "main.js": "/static/js/main.932c82ee.js",
+    "static/media/resume.pdf": "/static/media/resume.1b7dda5f3b459f042494.pdf",
     "static/media/memoji-wave.png": "/static/media/memoji-wave.5a4a1b45f5c36bf3004a.png",
+    "static/media/travisci.svg": "/static/media/travisci.92e9e0e27f252cc7f8b94eadaa575fb8.svg",
+    "static/media/ja-name-cross-logo-white-transparent.png": "/static/media/ja-name-cross-logo-white-transparent.e8f6554f0e8416fd4cda.png",
+    "static/media/uoft.svg": "/static/media/uoft.a32b304583d694605cc47215221b5090.svg",
+    "static/media/uhn.svg": "/static/media/uhn.cd23f2f257ac4a3ae2fdc029c60c3829.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/rbc.svg": "/static/media/rbc.7761997f0b32cee52220a8add4597cf7.svg",
+    "static/media/postman.svg": "/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
+    "static/media/okta.svg": "/static/media/okta.4271d47c15da415667adc92e3e7ef6b7.svg",
+    "static/media/mysql.svg": "/static/media/mysql.0697e026464104aea8919845703174b9.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/tennis.svg": "/static/media/tennis.c8ccbcfdeb93e6e4c7fb67fd1adb0971.svg",
+    "static/media/java.svg": "/static/media/java.2c5d38eae4a3a352dd64b4fe904a14dd.svg",
+    "static/media/python.svg": "/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/graphql.svg": "/static/media/graphql.488e5ca26ffde22d9a3d8925fce09070.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "index.html": "/index.html",
+    "static/media/javascript.svg": "/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
+    "static/media/git.svg": "/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/circleci.svg": "/static/media/circleci.838873c295ebd6aedd51aa2ee2126e19.svg",
+    "static/media/lti.svg": "/static/media/lti.aa85f043daa6005646b8b8903c55290b.svg",
+    "static/media/backbone.svg": "/static/media/backbone.d25cf8ab82e936b87fd4b69ee28d7579.svg",
     "static/media/close.svg": "/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
-    "main.4d6cfd0e.css.map": "/static/css/main.4d6cfd0e.css.map",
-    "main.979fe080.js.map": "/static/js/main.979fe080.js.map"
+    "static/media/msoffice.svg": "/static/media/msoffice.385bf055f6660f5b1f0279b3321ee9fe.svg",
+    "main.0d8a9795.css.map": "/static/css/main.0d8a9795.css.map",
+    "main.932c82ee.js.map": "/static/js/main.932c82ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d6cfd0e.css",
-    "static/js/main.979fe080.js"
+    "static/css/main.0d8a9795.css",
+    "static/js/main.932c82ee.js"
   ]
 }
